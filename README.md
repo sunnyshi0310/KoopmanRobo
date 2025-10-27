@@ -1,12 +1,54 @@
 # KoopmanRobo
 
-This repository includes the Python and Matlab implementations of the tutorial introduced in the survey paper
-1.   Lu Shi, Masih Haseli, Daniel Bruder, Ian Abraham, Todd David Murphey, Jorge Cortes, and Konstantinos Karydis, "Koopman Operator Theory in
-Foundational Robotics Research", In Process
+This repository provides an **end-to-end tutorial** for understanding and applying **Koopman operator theory in robotics**.  
+It accompanies the upcoming survey paper:
 
-The tutorial and scripts provided here are friendly to those who are new to the Koopman operator theory in Robotics. It mainly focused on clarifying the whole process, including data collection, model estimation, controller design and practical implementation. Note that the code is not optimized and is naive. We highly recommend advanced investigations of this area with the following resources.
+> **Lu Shi**, Masih Haseli, Giorgos Mamakoukas, Daniel Bruder, Ian Abraham, Todd D. Murphey, Jorge Cortes, and Konstantinos Karydis,  
+> *"Koopman Operators in Robot Learning"*, In Process.
 
-1. Pykoopman: Compare the effect of dictionary selections and test different approaches to estimate the Koopman operator.
-2. Koopman_learning_and_control: Koopman with different controllers and implementations.
-3. Active-learning-koopman: Koopman with active learning (improved data-collection process).
+---
+
+## 🧠 Overview
+
+This tutorial is designed for both **beginners** and **researchers** interested in applying Koopman operator theory to robotic systems.  
+It walks you through the **entire pipeline** — from raw data collection to Koopman-based model estimation, controller design, and practical implementation.
+
+All the main steps are demonstrated in **[`demo.ipynb`](demo.ipynb)**, which you can run directly to reproduce the results.  
+The notebook provides detailed comments, visualizations, and practical notes to help you understand not only *how* but also *why* each step works.
+
+---
+
+## 🧩 What You’ll Learn
+
+In the tutorial, you will:
+- Collect and preprocess robot motion data  
+- Estimate a Koopman operator model purely from data  
+- Design a **Koopman-based Model Predictive Controller (MPC)** for a differential drive robot  
+- Visualize and evaluate the performance of the learned controller  
+- Understand how changing the **lifting function dictionary**, **MPC parameters**, or **training data** affects performance  
+
+The implementation emphasizes clarity and educational value — the code is intentionally simple and not optimized for performance.  
+We encourage readers to extend and experiment further.
+
+---
+
+## 🔍 Recommended Further Reading & Tools
+
+If you want to explore more advanced or large-scale Koopman learning frameworks, we highly recommend the following resources:
+
+1. [**PyKoopman**](https://github.com/dynamicslab/pykoopman):  
+   Compare the effects of different dictionary selections and Koopman estimation methods.  
+
+2. [**Koopman Learning and Control**](https://github.com/udaylunawat/koopman_learning_and_control):  
+   Examples of Koopman-based controllers across various robotic systems.  
+
+3. [**Active Learning Koopman**](https://github.com/xxxx/active-learning-koopman):  
+   Extensions of Koopman learning with active data collection strategies.
+
+---
+
+## 🧾 Citation
+
+If you find this repository helpful, please cite our [survey paper](https://arxiv.org/pdf/2408.04200) once published.
+
 
