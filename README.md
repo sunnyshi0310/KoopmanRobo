@@ -31,7 +31,22 @@ The implementation emphasizes clarity and educational value — the code is inte
 We encourage readers to extend and experiment further.
 
 ---
+## 🚀 Getting Started
 
+The tutorial notebook **[`demo.ipynb`](demo.ipynb)** is fully self-contained and can be run directly on **[Google Colab](https://colab.research.google.com/)** without any additional setup.  
+We recommend starting there to quickly reproduce all results and visualizations.
+
+If you prefer to run the code in your **local environment**, please ensure the following dependencies are installed.  
+The versions listed below are the ones we have tested and verified to work properly, but other compatible versions should also function as long as the interfaces remain consistent.
+
+```bash
+numpy==1.26
+matplotlib==3.9.2
+cvxpy==1.6.4
+scipy==1.12
+```
+
+---
 ## 🔍 Recommended Further Reading & Tools
 
 If you want to explore more advanced or large-scale Koopman learning frameworks, we highly recommend the following resources:
