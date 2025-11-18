@@ -27,8 +27,7 @@ In the tutorial, you will:
 - Visualize and evaluate the performance of the learned controller  
 - Understand how changing the **lifting function dictionary**, **MPC parameters**, or **training data** affects performance  
 
-The implementation emphasizes clarity and educational value — the code is intentionally simple and not optimized for performance.  
-We encourage readers to extend and experiment further.
+The implementation emphasizes clarity and educational value — the code is intentionally simple and not optimized for performance. We recommend investigating the impact of different dictionary selections and experimenting with various approaches to estimate the Koopman operator using the code provided by [Pan *et al.* (2024)](https://doi.org/10.21105/joss.05881). Additionally, designing and implementing different controllers can be explored using examples provided in [Folkestad & Burdick (2021)](https://arxiv.org/abs/2105.08036), while the scripts used in [Abraham & Murphey (2019)](https://arxiv.org/abs/1906.05194) and [Folkestad, Pastor & Burdick (2020)](https://arxiv.org/abs/2004.01708) offer insights into active data collection.
 
 ---
 ## 🚀 Getting Started
